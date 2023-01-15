@@ -3,88 +3,22 @@ var sideB=getHeight()
 var sideC=pythagorean(sideA,sideB)
 
 penup();
-left(135)
-forward(sideC/2)
 right(135)
+forward(sideC/2)
+left(135)
 
 
+
+var x= prompt("number of steps: (max=16)");
+
+for (var i = 0; i < x; i++)
+  {
 pendown();
-
-left(90)
 forward(30)
 right(90)
 forward(30)
 left(90)
-forward(30)
-right(90)
-forward(30)
-
-left(90)
-forward(30)
-right(90)
-forward(30)
-left(90)
-forward(30)
-right(90)
-forward(30)
-
-left(90)
-forward(30)
-right(90)
-forward(30)
-left(90)
-forward(30)
-right(90)
-forward(30)
-
-left(90)
-forward(30)
-right(90)
-forward(30)
-left(90)
-forward(30)
-right(90)
-forward(30)
-
-left(90)
-forward(30)
-right(90)
-forward(30)
-left(90)
-forward(30)
-right(90)
-forward(30)
-
-left(90)
-forward(30)
-right(90)
-forward(30)
-left(90)
-forward(30)
-right(90)
-forward(30)
-
-left(90)
-forward(30)
-right(90)
-forward(30)
-left(90)
-forward(30)
-right(90)
-forward(30)
-
-left(90)
-forward(30)
-right(90)
-forward(30)
-left(90)
-forward(30)
-right(90)
-forward(30)
-
-left(90)
-forward(15)
-
+  }
 
 
 
